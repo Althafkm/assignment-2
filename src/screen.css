@@ -4,3 +4,65 @@
 .container, .content {
 width: 100%;
 }
+.logo{
+    padding:20px 50px 20px 5px;
+    align:left;
+    height:100%;
+   }
+   .navbar{
+    padding:20px 50px 20px 20px;
+    align:center;
+    height:50px;
+    /*background-color: blue;*/
+    font-size: 30px;
+    font-family:"Serif";
+    
+
+   }
+   .width-height{
+     width:33%  ;
+     height:100%;
+   }
+  .box {
+border-style: solid;
+border-color: black;
+ border-radius: 5px;
+border-width: 1px;
+background-color: light-blue;
+  }
+#page-footer{
+  border-style: solid;
+border-color: black;
+border-width: 2px;
+background-color: light-blue;
+
+}
+  .searchBar{
+    float: right;
+padding: 6px;
+margin-top: 25px;
+margin-right: 16px;
+border: none;
+font-size: 17px;
+  }
+
+/* Create three equal columns that floats next to each other */
+.column {
+float: left;
+padding: 10px;
+height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+#w{
+width:200px
+}
+ul{
+padding:10px;
+
+}
